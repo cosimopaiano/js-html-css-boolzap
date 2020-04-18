@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boolzap C. Paiano</title>
+    <!-- Font -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,700&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style/main.css">
+    <!-- JQ -->
+    <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+  </head>
+  <body>
+    <!-- App -->
+    <div id="app">
+      <section class="app-container">
+        <!-- contenitore generale si sinistra -->
+        <div class="left-container">
+          <!-- barra in alto-sinistra  -->
+          <div class="top-left">
+            <img src="img/avatar_io.jpg" alt="">
+            <div>
+              <i class="fas fa-circle-notch"></i>
+              <i class="fas fa-comment-alt"></i>
+              <i class="fas fa-ellipsis-v"></i>
+            </div>
+          </div>
+            <!--barra notiofica bell -->
+          <div class="notify-left">
+            <i class="fas fa-bell-slash"></i>
+            <div>
+              <h4>Ricevi notifiche di nuovi messaggi</h4>
+              <h5>Attiva notifiche desktop</h5>
+            </div>
+          </div>
+          <!-- barra ricerca lente -->
+          <div class="search">
+            <div class="search-cont">
+              <i class="fas fa-search"></i>
+              <input type="text" placeholder="Cerca o inizia una nuova chat">
+            </div>
+          </div>
+            <!-- parte riservata ai contatti -->
+          <div class="contact">
+            <ul>
+              <li>
+                <img src="img/avatar_1.jpg" alt="">
+                <div class="contact-cont">
+                  <div class="contact-user">
+                    <h4>Michele</h4>
+                    <h6>17.53</h6>
+                  </div>
+                  <h5>Non poteva essere altrimenti</h5>
+                </div>
+              </li>
+              <li>
+                <img src="img/avatar_2.jpg" alt="">
+                <div class="contact-cont">
+                  <div class="contact-user">
+                    <h4>Fabio</h4>
+                    <h6>17.53</h6>
+                  </div>
+                  <h5>Non poteva essere altrimenti</h5>
+                </div>
+              </li>
+              <li>
+                <img src="img/avatar_3.jpg" alt="">
+                <div class="contact-cont">
+                  <div class="contact-user">
+                    <h4>Samuele</h4>
+                    <h6>17.53</h6>
+                  </div>
+                  <h5>Non poteva essere altrimenti</h5>
+                </div>
+              </li>
+              <li>
+                <img src="img/avatar_4.jpg" alt="">
+                <div class="contact-cont">
+                  <div class="contact-user">
+                    <h4>Alessandro B.</h4>
+                    <h6>17.53</h6>
+                  </div>
+                  <h5>Non poteva essere altrimenti</h5>
+                </div>
+              </li>
+              <li>
+                <img src="img/avatar_5.jpg" alt="">
+                <div class="contact-cont">
+                  <div class="contact-user">
+                    <h4>Alessandro L.</h4>
+                    <h6>17.53</h6>
+                  </div>
+                  <h5>Non poteva essere altrimenti</h5>
+                </div>
+              </li>
+              <li>
+                <img src="img/avatar_6.jpg" alt="">
+                <div class="contact-cont">
+                  <div class="contact-user">
+                    <h4>Claudia</h4>
+                    <h6>17.53</h6>
+                  </div>
+                  <h5>Non poteva essere altrimenti</h5>
+                </div>
+              </li>
+              <li>
+                <img src="img/avatar_7.jpg" alt="">
+                <div class="contact-cont">
+                  <div class="contact-user">
+                    <h4>Davide</h4>
+                    <h6>17.53</h6>
+                  </div>
+                  <h5>Non poteva essere altrimenti</h5>
+                </div>
+              </li>
+              <li>
+                <img src="img/avatar_8.jpg" alt="">
+                <div class="contact-cont">
+                  <div class="contact-user">
+                    <h4>Federico</h4>
+                    <h6>17.53</h6>
+                  </div>
+                  <h5>Non poteva essere altrimenti</h5>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- contenitore generale destro -->
+        <div class="right-container">
+          <!--barra superiore destra -->
+          <div class="top-left">
+              <div class="user">
+                <img src="img/avatar_1.jpg" alt="">
+                <div>
+                  <h4>Michele</h4>
+                  <h6>Ultimo accesso oggi alle 15:40</h6>
+                </div>
+              </div>
+            <div>
+              <i class="fas fa-search"></i>
+              <i class="fas fa-paperclip"></i>
+              <i class="fas fa-ellipsis-v"></i>
+            </div>
+          </div>
+            <!-- zona visualizzazione chat -->
+          <div class="message-view">
+            <ul>
+              <li class="message-sent">
+                <div class="message message-sent-green">
+                  <h5>Ciao come stai?</h5>
+                  <h6>06:20</h6>
+                </div>
+              </li>
+              <li class="message-received">
+                <div class="message">
+                  <h5>Ciao come stai?</h5>
+                  <h6>14:21</h6>
+                </div>
+              </li>
+              <li class="message-sent">
+                <div class="message message-sent-green">
+                  <h5>Ciao come stai?</h5>
+                  <h6>21:41</h6>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <!-- parte bassa inserimento chat -->
+          <div class="bottom-bar-chat">
+            <i class="far fa-smile"></i>
+            <input type="text" placeholder="Scrivi un messaggio">
+            <i class="fas fa-microphone"></i>
+          </div>
+
+        </div>
+      </section>
+    </div>
+
+
+    <!-- Main JS -->
+    <script src="js/main.js"></script>
+
+  </body>
+</html>
